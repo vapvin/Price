@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spread Application</title>
+</head>
+<body>
+    <script>
+        const friends = ["bro","ame"];
+
+        const newFriends = [...friends, "dal"];
+
+        console.log(newFriends);
+
+        const hyunkyu = {
+            username: "현규"
+        }
+
+        console.log({...hyunkyu, Age:21});
+
+        const first = ["mon", "tue", 'wed'];
+
+        const weekend = ["sat", "sun"];
+
+        const fullWeek = [...first,"thu", "fri", ...weekend];
+        console.log(fullWeek);
+    </script>
+</body>
+</html>

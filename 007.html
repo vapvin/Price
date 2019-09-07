@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CSS Grid-2</title>
+    <title>CSS Grid-4</title>
 
     <style>
         .father {
             display:grid;
-            grid-template-columns:300px 150px;
-            grid-template-rows:300px 120px;
-            grid-gap:10px;
-            grid-template-areas:"header header header" "content content sidebar" "content content sidebar" "foorer foorer footer sidebar"
+            grid-auto-rows:200px;
+            grid-gap:5px;
+            grid-template-columns:2fr 1fr 2fr 1fr;
         }
 
         .first {
+        
             background: #f1c40f;
         }
 
         .second {
+           
             background: #27ae60;
         }
 
         .third {
+     
             background: #3498db;
         }
         .fourth {
+      
             background: #d35400;
         }
     </style>

@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CSS Grid-2</title>
+    <title>CSS Grid-5</title>
 
     <style>
         .father {
             display:grid;
-            grid-template-columns:300px 150px;
-            grid-template-rows:300px 120px;
-            grid-gap:10px;
-            grid-template-areas:"header header header" "content content sidebar" "content content sidebar" "foorer foorer footer sidebar"
+            grid-gap:5px;
+            grid-template-columns: min-content repeat(3, 1fr);
         }
 
         .first {
+        
             background: #f1c40f;
         }
 
         .second {
+           
             background: #27ae60;
         }
 
         .third {
+     
             background: #3498db;
         }
         .fourth {
+      
             background: #d35400;
         }
     </style>
 </head>
 <body>
     <div class="father">
-        <div class="first"></div>
+        <div class="first">
+            Lorem ipsum dolor, sit amet consectetur adiPmus aiusto recusandae repellat nostrum, numquam magnam corporis? Aspernatur.
+        </div>
         <div class="second"></div>
         <div class="third"></div>
         <div class="fourth"></div>
